@@ -1,0 +1,37 @@
+.parent {
+border: solid 5px blue;
+}
+h1 {
+    color: plum;
+    background-color: darkslategray;
+    text-align: center;
+}
+h3 {
+    color:blue;
+    display:inline-block;
+}
+.Tribute {
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+   
+    /* flex-direction: column-reverse; */
+}
+/* .Tribute img {
+    height:20%;
+    width: 30%; */
+/* } */
+.Tribute p {
+    /* align-self: center; */
+    color: aliceblue;
+}
+.Bio:hover {
+    background-color: aqua;
+    color: red; 
+}
+.More_info {
+    display:flex;
+    justify-content: space-between;
+    color:aliceblue;
+}
